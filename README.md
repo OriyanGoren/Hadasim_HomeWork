@@ -1,5 +1,6 @@
 # HomeExercise_HadsimAtida_OriyanGoren
 Author: Oriyan Goren | ID: 213022288 | Email: oriyango@edu.hac.ac.il
+(Remark: I deleted the directory "node_modules". you should need to run 'npm install').
 
 # Part A
 I created a node.js project and wrote the server side in JS, I did not write the client side because what was written in the instructions was to write only the server side and connecting to a database.
