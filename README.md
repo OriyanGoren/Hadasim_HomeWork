@@ -74,7 +74,14 @@ Bonus:
 
 2 - How to contact the services with the different APIs:
 
+- I wrote the server side in the 'index.js' file in the 'index' folder. I wrote the GET and POST functions there. Each of them has 2 parameters: the first is the path, which is actually what was in the call to the API for example /getDates, the second is a pointer to the function that does the logic and the queries.
 
+- I used another file called 'ContactIndex.js' inside the 'Contact' folder, which has all the functions that happen because of some API call and they contain the required queries.
+
+- To see that the API call was successful:
+*If it was a POST call - I used the
+res.send("attendant added successfully") and it appeared in PostMan, plus I could check that a row was indeed added to the tables.
+*If it was a GET call - by res.send(result), I received in PostMan the Json array that contains the relevant answer to the get I was looking for.
 
 # Part B
 I wrote the second part of the homework here in a folder named: "Part B", inside it there are 2 txt files of the two sections.
