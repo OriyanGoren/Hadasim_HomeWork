@@ -1,5 +1,6 @@
 # HomeExercise_HadsimAtida_OriyanGoren
 Author: Oriyan Goren | ID: 213022288 | Email: oriyango@edu.hac.ac.il
+
 (Remark: I deleted the directory "node_modules". you should need to run 'npm install').
 
 # Part A
@@ -79,9 +80,11 @@ Bonus:
 - I used another file called 'ContactIndex.js' inside the 'Contact' folder, which has all the functions that happen because of some API call and they contain the required queries.
 
 - To see that the API call was successful:
-*If it was a POST call - I used the
+
+*If it was a POST - I used the
 res.send("attendant added successfully") and it appeared in PostMan, plus I could check that a row was indeed added to the tables.
-*If it was a GET call - by res.send(result), I received in PostMan the Json array that contains the relevant answer to the get I was looking for.
+
+*If it was a GET - by res.send(result), I received in PostMan the Json array that contains the relevant answer to the get I was looking for.
 
 # Part B
 I wrote the second part of the homework here in a folder named: "Part B", inside it there are 2 txt files of the two sections.
