@@ -81,10 +81,10 @@ Bonus:
 
 - To see that the API call was successful:
 
-*If it was a POST - I used the
-res.send("attendant added successfully") and it appeared in PostMan, plus I could check that a row was indeed added to the tables.
+    *If it was a POST - I used the
+    res.send("attendant added successfully") and it appeared in PostMan, plus I could check that a row was indeed added to the tables.
 
-*If it was a GET - by res.send(result), I received in PostMan the Json array that contains the relevant answer to the get I was looking for.
+    *If it was a GET - by res.send(result), I received in PostMan the Json array that contains the relevant answer to the get I was           looking for.
 
 # Part B
 I wrote the second part of the homework here in a folder named: "Part B", inside it there are 2 txt files of the two sections.
