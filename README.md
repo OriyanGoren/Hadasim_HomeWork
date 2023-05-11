@@ -58,17 +58,23 @@ getAllPatientDetails:
 
 ![img_6.png](Images/img_6.png)
 
-getActivePatientsLastMonth - Bonus:
+Bonus:
+
+3a - getActivePatientsLastMonth:
 1. http://localhost:3000/getActivePatientsLastMonth/?currentMonth=May
 2. http://localhost:3000/getActivePatientsLastMonth/?currentMonth=June
 
 ![img.png](Images/img.png)
 
-getCopaMembersNotVaccinated - Bonus:
+3b - getCopaMembersNotVaccinated - Bonus:
 1. http://localhost:3000/getCopaMembersNotVaccinated/
 2. http://localhost:3000/getCopaMembersNotVaccinated/
 
 ![img_1.png](Images/img_1.png)
+
+2 - How to contact the services with the different APIs:
+
+
 
 # Part B
 I wrote the second part of the homework here in a folder named: "Part B", inside it there are 2 txt files of the two sections.
